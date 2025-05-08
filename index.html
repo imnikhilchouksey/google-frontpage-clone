@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/google.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  
+  
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css?_cacheOverride=1725700491751" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"></head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <a href="http://127.0.0.1:5500/google.html#">About</a>
+      <a href="http://127.0.0.1:5500/google.html#">Store</a>
+      <div class="nav-remaining">
+        <div class="nav-gmail " style="padding-right:25px;">
+          <a href="http://127.0.0.1:5500/google.html#">Gmail</a>
+        </div>
+        <div class="nav-images " style="padding-right: 25px;">
+          <a href="http://127.0.0.1:5500/google.html#">Images</a>
+        </div>
+        <div class="nav-lab-icon " style="padding-right: 25px;">
+          <i class="fa-solid fa-flask"></i>
+        </div>
+        <div class="nav-points-icon " style="padding-right: 25px;">
+          <i class="fa-solid fa-compact-disc"></i>
+        </div>
+        <div class="nav-name-icon border">
+          <img src="assests/account_circle_24dp_BLACK_FILL0_wght400_GRAD0_opsz24.svg" alt="account">
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+  <main>
+    <div class="google-image">
+      <img src="assests/google_image.gif" alt="paris olympic weightlifting">
+    </div>
+    <div class="search-panel">
+      <div class="search-box">
+        <span class="fas fa-search" style="color: #9aa0a6; margin-left: 10px;"></span>
+        <input type="text" placeholder="">
+        <img src="assests/google-mic.png" alt="google-mic">
+        <img src="assests/google-lens.jpeg" alt="google-lens">
+      </div>
+      <div class="search-panel-remaining">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+      </div>
+      <div class="google-offer">
+        <p>Google offered in :</p>
+        <a href="http://127.0.0.1:5500/google.html">हिन्दी </a>
+        <a href="http://127.0.0.1:5500/google.html">বাংলা </a>
+        <a href="http://127.0.0.1:5500/google.html">తెలుగు </a>
+        <a href="http://127.0.0.1:5500/google.html">मराठी </a>
+        <a href="http://127.0.0.1:5500/google.html">தமிழ் </a>
+        <a href="http://127.0.0.1:5500/google.html">ગુજરાતી </a>
+        <a href="http://127.0.0.1:5500/google.html">ಕನ್ನಡ </a>
+        <a href="http://127.0.0.1:5500/google.html">മലയാളം </a>
+        <a href="http://127.0.0.1:5500/google.html">ਪੰਜਾਬੀ</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="india">
+      <p>India</p>
+    </div>
+    <div class="footer-remaining">
+      <div class="ad">
+        <a href="http://127.0.0.1:5500/google.html">Advertising</a>
+        <a href="http://127.0.0.1:5500/google.html">Buisness</a>
+        <a href="http://127.0.0.1:5500/google.html">How search works</a>
+      </div>
+      <div class="privacy">
+        <a href="http://127.0.0.1:5500/google.html">Privacy</a>
+        <a href="http://127.0.0.1:5500/google.html">Terms</a>
+        <a href="http://127.0.0.1:5500/google.html">Settings</a>
+      </div>
+
+    </div>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
